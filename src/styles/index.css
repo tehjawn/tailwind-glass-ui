@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;600&display=swap");
+
+.glassy {
+  @apply bg-white
+    bg-opacity-50
+    border
+    border-opacity-50
+    backdrop-filter
+    backdrop-blur-sm
+    shadow-2xl;
+}
