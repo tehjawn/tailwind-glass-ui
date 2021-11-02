@@ -5,11 +5,11 @@ const GlassButton = ({ children }) => {
     <div
       className="
         relative
-        rounded-full
+        w-full
+        rounded-sm
         bg-white
         bg-opacity-60
-        h-12
-        w-12
+        p-4
         flex
         justify-center
         items-center
@@ -24,6 +24,7 @@ const GlassButton = ({ children }) => {
         transition-all
         shadow-lg
         text-2xl
+        font-thin
         "
     >
       {children}

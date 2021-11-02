@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import GlassButton from "src/components/atoms/GlassButton";
 
-const HomePage = () => {
+const ComponentsPage = () => {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div
       className={`
-    App
-    min-h-screen
-    p-4
-    bg-gradient-to-t
-    ${darkMode ? "from-indigo-900 to-black" : "from-indigo-100 to-white"}
+      App
+      p-4
+      bg-gradient-to-t
+      ${darkMode ? "from-indigo-900 to-black" : "from-indigo-100 to-white"}
     `}
       style={{ fontFamily: "Josefin Sans, sans-serif" }}
     >
@@ -89,4 +88,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default ComponentsPage;
